@@ -5,9 +5,6 @@ import * as path from "path";
 
 import listRoute from "./routes/listRoutes/listRoute.js";
 import bodyParser from "body-parser";
-import { dirname } from "path";
-import { dir } from "console";
-
 const app = express();
 
 const PORT = process.env.PORT | 4000;
